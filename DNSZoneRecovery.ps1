@@ -30,10 +30,9 @@
     
     .\DNSZoneRecovery.ps1
 
-.Version 1
-
+.Version 1.0
+.Release : 11/2024
 .Author : Dakhama Mehdi
-
 #>
 
 
@@ -104,7 +103,7 @@ function Restore-DnsZone {
 [xml]$xaml = @"
 <Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="ADDNS Backup" Height="200" Width="700" Background="#F0F0F5">
+        Title="DNS Zone Recovery v.1" Height="200" Width="700" Background="#F0F0F5">
     <Grid>
         <DataGrid x:Name="ServiceGrid" AutoGenerateColumns="False" Height="Auto" Margin="10,10,10,50" VerticalAlignment="Top" SelectionMode="Single">
             <DataGrid.Columns>
