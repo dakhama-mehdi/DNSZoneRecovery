@@ -1,5 +1,3 @@
-# DNSZoneRecovery
-
 **DNSZoneRecovery** is a PowerShell script designed to restore deleted DNS zones in an Active Directory environment. Through an intuitive graphical interface (WPF), it allows users to view a list of deleted DNS zones and select zones for recovery with ease.
 
 This tool is intended for DNS administrators or domain administrators who need to recover DNS zones that may have been accidentally deleted. 
