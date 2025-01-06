@@ -10,7 +10,7 @@
 .FEATURES
     - Displays a list of deleted DNS zones with information such as zone name, creation date, 
       deletion date, and parent path.
-    - Allows selection of a zone and restoration with a simple click on the "Backup" button.
+    - Allows selection of a zone and restoration with a simple click on the "Restore" button.
     - Includes a "Cancel" button to close the window without performing any actions.
     - Restarts the DNS service to apply changes after restoration.
     - Provides status and confirmation messages in the console to facilitate action tracking.
