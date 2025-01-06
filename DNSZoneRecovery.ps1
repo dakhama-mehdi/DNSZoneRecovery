@@ -115,7 +115,7 @@ function Restore-DnsZone {
             </DataGrid.Columns>
         </DataGrid>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10">
-            <Button x:Name="RestoreButton" Content="Backup" Width="100" Margin="0,0,10,0"/>
+            <Button x:Name="RestoreButton" Content="Restore" Width="100" Margin="0,0,10,0"/>
             <Button x:Name="CancelButton" Content="Cancel" Width="100"/>
         </StackPanel>
     </Grid>
